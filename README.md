@@ -88,22 +88,6 @@ cv-web/
 
 ---
 
-### 5. Deploy en GitHub Pages
-
-Para publicar el proyecto:
-
-1. Subir el repositorio a GitHub
-2. Ir a:
-   - `Settings` → `Pages`
-3. En "Source":
-   - Seleccionar rama `main`
-   - Carpeta `/root`
-4. Guardar
-
-GitHub generará automáticamente una URL pública.
-
----
-
 ## 📱 Características
 
 - ✅ Diseño responsive (mobile-first)
@@ -149,4 +133,4 @@ para acelerar la creación de productos funcionales y profesionales.
 
 ## 👨‍💻 Autor
 
-Proyecto creado con fines educativos y de práctica.
+Proyecto creado con fines educativos y de práctica por Champredonde Juan Martin.
