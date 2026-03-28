@@ -6,6 +6,12 @@ Además de mostrar el resultado final, este repositorio documenta el **proceso d
 
 ---
 
+## Despliegue
+
+El proyecto está desplegado en GitHub Pages: [https://colochampre.github.io/cv-web/](https://colochampre.github.io/cv-web/)
+
+---
+
 ## 🚀 Objetivo
 
 Crear una página web simple, moderna y responsive que represente un CV profesional, utilizando buenas prácticas de desarrollo frontend y asistencia de herramientas de inteligencia artificial.
