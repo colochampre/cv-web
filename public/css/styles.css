@@ -393,18 +393,35 @@ body.dark-mode .timeline-marker {
 }
 
 .skill-bar {
-    height: 8px;
-    background-color: var(--border-color);
-    border-radius: var(--radius-full);
-    overflow: hidden;
     margin-bottom: var(--spacing-xs);
 }
 
-.skill-progress {
-    height: 100%;
+.skill-bar progress {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    height: 8px;
+    border: none;
+    border-radius: var(--radius-full);
+    background-color: var(--border-color);
+    overflow: hidden;
+    display: block;
+}
+
+.skill-bar progress::-webkit-progress-bar {
+    background-color: var(--border-color);
+    border-radius: var(--radius-full);
+}
+
+.skill-bar progress::-webkit-progress-value {
     background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
     border-radius: var(--radius-full);
-    transition: width 1s ease;
+}
+
+.skill-bar progress::-moz-progress-bar {
+    background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
+    border-radius: var(--radius-full);
 }
 
 .skill-level {
